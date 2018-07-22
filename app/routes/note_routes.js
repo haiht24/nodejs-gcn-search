@@ -1,6 +1,5 @@
-// routes/note_routes.js
+/* routes/note_routes.js */
 const Promise = require('bluebird');
-// const request = require('request');
 const request = require('request');
 const cheerio = require('cheerio');
 
