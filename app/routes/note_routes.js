@@ -38,8 +38,6 @@ module.exports = function (app, db) {
                         merged = merged.concat(r);
                     }
                 }
-
-                // results = JSON.parse(merged);
                 res.send(merged);
                 console.log(merged);
             }).catch(function(error){
