@@ -37,7 +37,7 @@ module.exports = function (app, db) {
                         merged = merged.concat(r);
                     }
                 }
-                console.log('test service auto build jenkin');
+                console.log('test service auto build jenkin');//asdasdasd
                 res.send(merged);
                 console.log(merged);
             }).catch(function(error){
